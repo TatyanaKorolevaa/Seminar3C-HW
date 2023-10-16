@@ -16,4 +16,4 @@ char numbers(string chislo, int num)
 return '!';
 }
 Console.WriteLine("Введите число трехзначное");
-Console.WriteLine(numbers(Console.ReadLine(),3));
+Console.WriteLine(numbers(Console.ReadLine(),Convert.ToInt32(Console.ReadLine())));
